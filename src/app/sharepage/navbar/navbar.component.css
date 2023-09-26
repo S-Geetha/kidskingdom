@@ -1,0 +1,23 @@
+.navbar-light .navbar-nav .nav-link
+{
+    color: var(--secondary-color);
+    font-size: 25px;
+    font-family:fantasy;
+    font-style: italic;
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    
+    color:blue;
+    text-decoration: underline;
+}
+.navbar-brand{
+    
+    font-size: 35px;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.img{
+    border-radius: 525px;
+}

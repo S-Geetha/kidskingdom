@@ -1,0 +1,30 @@
+.text-center{
+    
+    font-family: fantasy;
+    color: #170c7b;
+}
+
+.text-centerr{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFVS9Mb1sw6R5YwvisfSXVwhImXS6nQtW8ZQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: cursive;
+    color: #000;
+}
+.sub{
+    text-decoration: none;
+    background-color:#14097f;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-family: fantasy;
+    align-items: center;
+}
+
+.sub:hover{
+    background-color:#000;
+    color: #fff;
+}

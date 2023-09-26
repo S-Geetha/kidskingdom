@@ -1,0 +1,30 @@
+<div class="container mt-5 mb-5">
+
+    <div class="row">
+
+        <div class="col-lg-6" *ngIf="menuData">
+            <a routerLink="../../menu" class="btn btn-sm btn-dark mb-3 ">BACK</a>
+            <img src="{{menuData[0].Img}}" height="200%" width="200%"/>
+            <h1 class="mt-3">{{menuData[0].Name}}</h1>
+            <p>{{menuData[0].Details}}</p>
+            <p>{{menuData[0].Price | currency :'INR'}}</p>
+        </div>
+
+        <div class="col-lg-6 col-12">
+            <h1 class="det">Enter Your Details</h1>
+            <form class="text-centerr">
+                <br><br>
+                <input type="text" class="form-control" placeholder="Enter Your Full Name" /><br>
+                <input type="text" class="form-control" placeholder="Enter Your Mobile" /><br>
+                <textarea class="form-control" placeholder="Enter Your Address"></textarea><br>
+                <button class="buybut"><a href="https://images.onlinelabels.com/images/Products/ST6117/ST6117.png"> BUY NOW</a></button><br><br>
+
+            </form>
+
+
+        </div> 
+
+
+    </div>
+
+</div>

@@ -1,0 +1,56 @@
+form
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFVS9Mb1sw6R5YwvisfSXVwhImXS6nQtW8ZQ&usqp=CAU");
+    margin-top: 10%;
+    width: 100%;
+}
+img 
+{
+    border-radius: 6px;
+    padding: 10px 20px;
+    width: 80%;
+    height: 80%;
+    object-fit:contain;
+    
+}
+@media screen and (max-width:600px) {
+    form 
+    {
+        
+        width: 100%;
+    }
+}
+
+.row{
+    height: fit-content;
+    width: fit-content;
+}
+
+.det{
+    
+    font-family: fantasy;
+    color:blue;
+}
+
+.text-centerr{
+    text-align: center;
+    font-family: cursive;
+    color: #000;
+}
+
+.buybut
+{
+    text-decoration: none;
+    background-color:#ffffff;
+    color: #052d83;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: fantasy;
+    
+}
+
+.buybut:hover{
+    background-color:#000;
+    color: #fff;
+}

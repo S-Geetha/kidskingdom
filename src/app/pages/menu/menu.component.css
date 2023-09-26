@@ -1,0 +1,47 @@
+
+.box 
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFVS9Mb1sw6R5YwvisfSXVwhImXS6nQtW8ZQ&usqp=CAU");
+    background-attachment: fill;
+    padding: 10px 10px;
+    width: 80%;
+    height: 85%;
+} 
+.box img
+{
+    
+    width: 100%;
+    height:75%;
+    object-fit:fill;
+    border-radius: 5px;
+}
+.box h1 
+{
+    
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    color: #48083a;
+}
+.buybtn
+{ 
+    cursor: pointer;
+    text-decoration: none;
+    background-color:#0d1b87;
+    color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: fantasy;
+}
+
+.buybtn:hover{
+    background-color:#000;
+    color: #fff;
+}
+
+.det{
+    font-family: cursive;
+    color: #6820b4;
+}
