@@ -10,6 +10,7 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { MenupageComponent } from './pages/menupage/menupage.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,10 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    {provide: LocationStrategy,useClass:HashLocationStrategy},
+   ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
